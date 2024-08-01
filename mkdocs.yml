@@ -1,0 +1,36 @@
+site_name: Yuqing Yang
+nav:
+# Hide the index page -> would otherwise result in two mkdocs-badges links
+- "": index.md
+- Publications: publications.md
+- Projects: projects.md
+
+theme:
+  # name: mkdocs
+  name: gitbook
+  # name: material
+  features:
+    # - content.code.copy
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search: false
