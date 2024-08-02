@@ -4,6 +4,7 @@ nav:
 - "": index.md
 - Publications: publications.md
 - Projects: projects.md
+- Resume: resume.md
 
 theme:
   # name: mkdocs
